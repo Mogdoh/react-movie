@@ -1,0 +1,69 @@
+.detail_container {
+  background-color: #333;
+  max-width: auto;
+  max-height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail_title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+.detail_middle {
+  display: flex;
+}
+.detail_middle_rr {
+  margin-left: 15px;
+}
+
+.detail_year,
+.detail_rating,
+.detail_runtime {
+  font-size: 18px;
+  margin: 5px 0;
+  color: white;
+}
+
+.details_genres {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.details_genres li {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+}
+
+iframe {
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+p {
+  line-height: 1.6;
+  color: white;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
